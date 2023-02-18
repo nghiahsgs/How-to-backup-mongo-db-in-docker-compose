@@ -33,3 +33,11 @@ mongodb://root:pass@localhost:27017/
 Now the data of mongo will auto mapping to `/root/test_mongo_volume/volume_2`
 
 You can backup the folder regulary or move it to other server. And run the docker-compose same like above. It's the way to backup dabase mongo db was build from docker-compose
+
+
+<br/>
+
+You can use 7zip to compress and extract to other server: https://github.com/nghiahsgs/How-use-7zip/blob/main/README.md
+
+<br/>
+Or you can regular backup the folder volume use cron tab: https://github.com/nghiahsgs/How-to-backup-a-folder-every-day-and-keep-3-recent-backup-file/blob/main/README.md
