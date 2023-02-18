@@ -30,6 +30,6 @@ After the docker compose start successfully, the connection string for mongo db
 mongodb://root:pass@localhost:27017/
 ```
 
-Now the data of mongo will auto mapping to '/root/test_mongo_volume/volume_2'
+Now the data of mongo will auto mapping to `/root/test_mongo_volume/volume_2`
 
 You can backup the folder regulary or move it to other server. And run the docker-compose same like above. It's the way to backup dabase mongo db was build from docker-compose
